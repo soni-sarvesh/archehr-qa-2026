@@ -30,4 +30,33 @@ python scoring_subtask_1.py \
     --out_file_path scores.json
 ```
 
+#### Subtask 2
+
+```bash
+python scoring_subtask_2.py \
+    --submission_path submission.json \
+    --key_path archehr-qa_key.json \
+    --out_file_path scores.json
+```
+
+#### Subtask 3
+
+```bash
+python scoring_subtask_3.py \
+    --submission_path submission.json \
+    --key_path archehr-qa_key.json \
+    --data_path archehr-qa.xml \
+    --quickumls_path quickumls/ \
+    --out_file_path scores.json
+```
+
+#### Subtask 4
+
+```bash
+python scoring_subtask_4.py \
+    --submission_path submission.json \
+    --key_path archehr-qa_key.json \
+    --out_file_path scores.json
+```
+
 If you have any questions, please reach out to sarvesh.soni@nih.gov.
